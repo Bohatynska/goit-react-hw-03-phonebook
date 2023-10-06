@@ -17,7 +17,6 @@ export default class App extends Component {
   };
 
   addContact = contacts => {
-    // console.log(contacts);
     const { name, number } = contacts;
     for (const contact of this.state.contacts) {
       if (contact.name.toLowerCase() === name.toLowerCase()) {

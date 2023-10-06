@@ -44,11 +44,6 @@ class PhonebookForm extends Component {
             value={this.state.name}
             type="text"
             name="name"
-            // pattern="\+?\d{1,4}?[ .\-\s]?\(?\d{1,3}?\)?[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,9}"
-            // title="Name may contain
-            //         only letters, apostrophe, dash and spaces. For example Adrian,
-            //         Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-            // required
           ></FormInput>
           <FormLabel htmlFor="number">Number</FormLabel>
           <FormInput
